@@ -200,6 +200,7 @@ body {
     color: black;
     cursor: pointer;
     text-align: center;
+    position: relative;
 }
 
 p {
@@ -211,8 +212,14 @@ p {
    text-align:center;
 }
 
-.back-wrapper {
-  height: 300px;
-  margin: auto 0;
+.back-wrapper { 
+  margin: auto;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
